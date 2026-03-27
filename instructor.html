@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Trainers | Martial Arts Academy</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f8f9fa;
+}
+
+/* NAVBAR */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* HERO */
+.page-hero {
+    background: url('https://images.unsplash.com/photo-1599058917765-a780eda07a3e') center/cover no-repeat;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+.page-hero h1 {
+    font-weight: 700;
+    font-size: 42px;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 0;
+}
+.section-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* TRAINER CARD */
+.trainer-profile {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+.trainer-profile:hover {
+    transform: translateY(-8px);
+}
+
+.trainer-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.trainer-info {
+    padding: 25px;
+}
+
+.trainer-tag {
+    background: #000;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.trainer-info h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.trainer-role {
+    color: #666;
+    font-size: 14px;
+}
+
+.trainer-desc {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.trainer-qualifications {
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+/* CTA */
+.cta {
+    background: #111;
+    color: white;
+    padding: 60px 0;
+}
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cta-buttons a {
+    margin-right: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #bbb;
+    padding: 40px 0;
+}
+footer h4, footer h3 {
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">Martial Arts Academy</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="class.html">Classes</a></li>
+<li class="nav-item"><a class="nav-link active" href="#">Instructors</a></li>
+<li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item"><a class="nav-link " href="login.html">Login</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+<div class="container">
+<h1>Meet Our Professional Trainers</h1>
+<p>Our highly qualified coaching team delivers expert martial arts instruction, fitness training, and personalised guidance to help every member reach their full potential.</p>
+</div>
+</section>
+
+<!-- TRAINERS -->
+<section class="section">
+<div class="container">
+
+<div class="section-head">
+<h2>Our Coaching Team</h2>
+<p>Our instructors are experienced professionals specialising in different martial arts disciplines, fitness training, and beginner development.</p>
+</div>
+
+<div class="row g-4">
+
+<!-- Trainer 1 -->
+<div class="col-md-4">
+<div class="trainer-profile">
+<img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" class="trainer-photo">
+
+<div class="trainer-info">
+<span class="trainer-tag">Head Coach</span>
+<h3>Michale Tan</h3>
+<p class="trainer-role">Head Martial Arts Instructor</p>
+
+<p class="trainer-desc">
+Michale is the academy’s head coach with extensive experience across multiple martial arts disciplines. He focuses on developing strong technical foundations, discipline, and performance excellence.
+</p>
+
+<ul class="trainer-qualifications">
+<li>4th Dan Black Belt – Judo</li>
+<li>3rd Dan Black Belt – Jiu-Jitsu</li>
+<li>1st Dan Black Belt – Karate</li>
+<li>Certified Muay Thai Coach</li>
+</ul>
+
+<p>Email: michalebaby@academy.com</p>
+</div>
+</div>
+</div>
+
+<!-- Trainer 2 -->
+<div class="col-md-4">
+<div class="trainer-profile">
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" class="trainer-photo">
+
+<div class="trainer-info">
+<span class="trainer-tag">Karate Specialist</span>
+<h3>Emily stone</h3>
+<p class="trainer-role">Assistant Martial Arts Coach</p>
+
+<p class="trainer-desc">
+Emily specialises in Karate and beginner training. Her structured and supportive coaching approach helps new members build confidence and develop essential techniques.
+</p>
+
+<ul class="trainer-qualifications">
+<li>5th Dan Black Belt – Karate</li>
+<li>Experienced Group Instructor</li>
+<li>Beginner Training Specialist</li>
+</ul>
+
+<p>Email: Emily69@academy.com</p>
+</div>
+</div>
+</div>
+
+<!-- Trainer 3 -->
+<div class="col-md-4">
+<div class="trainer-profile">
+<img src="https://images.unsplash.com/photo-1594737625785-c38e4f7f51cf" class="trainer-photo">
+
+<div class="trainer-info">
+<span class="trainer-tag">Technique Coach</span>
+<h3>David cole</h3>
+<p class="trainer-role">Grappling & Fitness Coach</p>
+
+<p class="trainer-desc">
+Dude focuses on Jiu-Jitsu and Judo, helping students improve balance, control, and advanced techniques while enhancing overall physical performance.
+</p>
+
+<ul class="trainer-qualifications">
+<li>2nd Dan Black Belt – Jiu-Jitsu</li>
+<li>1st Dan Black Belt – Judo</li>
+<li>Technical Development Specialist</li>
+</ul>
+
+<p>Email: david123@academy.com</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+<div class="container cta-box">
+<div>
+<h2>Start Your Training Journey Today</h2>
+<p>Explore our class timetable and choose sessions that match your goals and experience level.</p>
+</div>
+
+<div class="cta-buttons">
+<a href="#" class="btn btn-primary">View Timetable</a>
+<a href="#" class="btn btn-outline-light">Membership Plans</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="container">
+<div class="row">
+
+<div class="col-md-4">
+<h3>Martial Arts Academy</h3>
+<p>Providing professional martial arts, self-defence, and fitness training in a safe and motivating environment.</p>
+</div>
+
+<div class="col-md-4">
+<h4>Quick Links</h4>
+<p><a href="#" class="text-light">Classes</a></p>
+<p><a href="#" class="text-light">Timetable</a></p>
+<p><a href="#" class="text-light">Membership</a></p>
+</div>
+
+<div class="col-md-4">
+<h4>Contact</h4>
+<p>Dubai, UAE</p>
+<p>+971 50 000 0000</p>
+<p>info@academy.com</p>
+</div>
+
+</div>
+
+<hr>
+<p class="text-center">© 2026 Martial Arts Academy. All rights reserved.</p>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

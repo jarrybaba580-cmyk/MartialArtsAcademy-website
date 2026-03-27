@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classes | Martial Arts Academy</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* HERO */
+.page-hero {
+    padding: 100px 0 60px;
+    background: #f8f9fa;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 0;
+}
+
+.section-light {
+    background: #f8f9fa;
+}
+
+/* CARDS */
+.class-card, .service-card, .coach-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.class-card:hover, .service-card:hover, .coach-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* GRID */
+.class-grid, .service-grid, .coach-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* BUTTON CENTER */
+.center-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #ccc;
+    padding: 40px 0;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Martial Arts Academy</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link active" href="class.html">Class</a></li>
+<li class="nav-item"><a class="nav-link" href="instructor.html">Instructors</a></li>
+<li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item"><a class="nav-link " href="login.html">Login</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- MAIN -->
+<main>
+
+<!-- HERO -->
+<section class="page-hero text-center">
+<div class="container">
+<h1 class="fw-bold">Classes & Training Programmes</h1>
+<p class="mt-3">
+Explore our wide range of martial arts disciplines, structured training sessions, and fitness programmes designed for all experience levels.
+</p>
+
+<a class="btn btn-primary me-2" href="timetable.html">View Timetable</a>
+<a class="btn btn-outline-dark" href="membership.html">Membership Options</a>
+</div>
+</section>
+
+<!-- MARTIAL ARTS -->
+<section class="section">
+<div class="container text-center">
+<h2 class="mb-4">Martial Arts Disciplines</h2>
+<p class="mb-5">
+Our academy offers a variety of martial arts classes, including Jiu-jitsu, Karate, Judo, and Muay Thai, delivered by experienced instructors.
+</p>
+
+<div class="class-grid text-start">
+
+<div class="class-card">
+<h3>Jiu-jitsu</h3>
+<p>
+A technique-focused discipline centred on grappling and control. Ideal for building confidence and practical self-defence skills.
+</p>
+<ul>
+<li>Beginner-friendly approach</li>
+<li>Focus on technique and control</li>
+<li>Suitable for teenagers and adults</li>
+</ul>
+</div>
+
+<div class="class-card">
+<h3>Karate</h3>
+<p>
+A structured martial art that develops discipline, striking techniques, and mental focus while improving overall fitness.
+</p>
+<ul>
+<li>Emphasis on discipline and forms</li>
+<li>Fundamental striking techniques</li>
+<li>Suitable for all experience levels</li>
+</ul>
+</div>
+
+<div class="class-card">
+<h3>Judo</h3>
+<p>
+A dynamic discipline based on throws, balance, and movement, helping to improve coordination and physical control.
+</p>
+<ul>
+<li>Focus on throws and balance</li>
+<li>Safe and controlled training</li>
+<li>Enhances cardiovascular fitness</li>
+</ul>
+</div>
+
+<div class="class-card">
+<h3>Muay Thai</h3>
+<p>
+A high-intensity striking art that improves endurance, strength, and full-body conditioning.
+</p>
+<ul>
+<li>Striking and conditioning</li>
+<li>High calorie-burning workouts</li>
+<li>Builds stamina and resilience</li>
+</ul>
+</div>
+
+</div>
+
+<p class="mt-5">
+Our facilities include a fully equipped gym, a matted training area, sauna, steam room, and modern changing facilities.
+</p>
+
+</div>
+</section>
+
+<!-- KIDS -->
+<section class="section section-light">
+<div class="container text-center">
+<h2 class="mb-4">Kids Training Programmes</h2>
+<p class="mb-5">
+Dedicated sessions are available for children, including Kids Jiu-jitsu, Judo, and Karate, delivered in a safe and structured environment.
+</p>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="class-card">
+<h3>Benefits of Kids Training</h3>
+<p>
+Our youth programmes support the development of discipline, confidence, respect, and physical fitness in a supportive environment.
+</p>
+<a class="btn btn-primary" href="membership.html">View Schedule</a>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="class-card">
+<h3>Junior Membership</h3>
+<p>
+Junior members can access all children’s classes. Full pricing details are available on the membership page.
+</p>
+<a class="btn btn-outline-dark" href="membership.html">View Plans</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+<div class="container text-center">
+<h2 class="mb-4">Specialist Courses & Fitness Services</h2>
+
+<div class="service-grid text-start">
+
+<div class="service-card">
+<h3>Beginner Self-Defence Course</h3>
+<p><strong>Duration:</strong> 6 weeks (2 sessions per week)</p>
+<p><strong>Price:</strong> £180</p>
+<p>Designed for beginners seeking practical self-defence skills in a structured programme.</p>
+</div>
+
+<div class="service-card">
+<h3>Fitness Room Access</h3>
+<p><strong>Price:</strong> £6 per visit</p>
+<p>Access to our fully equipped gym to support strength and conditioning training.</p>
+</div>
+
+<div class="service-card">
+<h3>Personal Training</h3>
+<p><strong>Price:</strong> £35 per hour</p>
+<p>One-to-one sessions tailored to individual fitness and performance goals.</p>
+</div>
+
+<div class="service-card">
+<h3>Private Martial Arts Coaching</h3>
+<p><strong>Price:</strong> £15 per hour</p>
+<p>Personalised instruction to accelerate skill development and technique improvement.</p>
+</div>
+
+</div>
+
+<div class="center-btn">
+<a href="contact.html" class="btn btn-primary">Enquire Now</a>
+</div>
+
+</div>
+</section>
+
+<!-- COACHES -->
+<section class="section section-light text-center">
+<div class="container">
+<h2 class="mb-4">Our Coaching Team</h2>
+<p class="mb-5">
+Our instructors are highly experienced professionals committed to delivering high-quality training.
+</p>
+
+<div class="coach-grid text-start">
+
+<div class="coach-card">
+<h3>David Cole</h3>
+<p>Striking Specialist</p>
+<p>Experienced in coaching across multiple martial arts disciplines.</p>
+</div>
+
+<div class="coach-card">
+<h3>Michael Tan</h3>
+<p>Grappling Coach</p>
+<p>5th Dan Black Belt in Karate with extensive teaching experience.</p>
+</div>
+
+<div class="coach-card">
+<h3>Emily Stone</h3>
+<p>Fitness Trainer</p>
+<p>2nd Dan Black Belt in Jiu-jitsu specialising in conditioning programmes.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+<div class="container text-center">
+<h4>Martial Arts Academy</h4>
+<p>Promoting discipline, confidence, and fitness through professional training.</p>
+<p>© 2026 Martial Arts Academy. All rights reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
